@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link href="Styles/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Passion+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
+<body>
+ <div class="Main">
+       <div id="celsius">
+           <div id="celsiusRed">
+
+           </div>
+       </div>
+     <div id="fahrenheit">
+         <div id="fahrenheitRed">
+
+         </div>
+     </div>
+     <div class="container">
+         <p class="Name">
+             Enter The temperature
+         </p>
+         <input id="tempInputCelsius" type="text" placeholder="   Enter Temperature In Celsius" oninput="disableF()"/>
+         <input id="tempInputFahrenheit" type="text" placeholder="   Enter Temperature in Fahrenheit" oninput="disableC()"/>
+         <button id="Button">Calculate</button>
+     </div>
+ </div>
+<script src="js/MainController.js" ></script>
+</body>
+</html>
+<!--Created By Hovhannes Zohrabyan-->
